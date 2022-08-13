@@ -52,6 +52,9 @@ p{
     color: white;
     border-radius: 10px;
     margin-top: 30px;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 0%;
 }
 
 .gray{
@@ -107,7 +110,7 @@ p{
         grid-row: 1;
         grid-row-start: 1;
         grid-row-end: 3;
-        height: 490px;
+        height: 475px;
         margin-top: 20px;
     }
 
@@ -119,7 +122,7 @@ p{
     .black{
         grid-column-start: 2;
         grid-column-end: 4;
-        height: 200px;
+        height: 180px;
     }
 
     h2{
@@ -133,7 +136,6 @@ p{
 
     .image{
         width: 13%;
-        margin-top: 10px;
     }
 
     .purple .image, .black .image{
@@ -142,5 +144,9 @@ p{
     h2{
         font-size: 18px;
         margin-top: -10px;
+    }
+
+    .one{
+        margin-bottom: 15px;
     }
 }
