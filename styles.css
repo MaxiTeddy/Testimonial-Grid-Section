@@ -1,0 +1,146 @@
+body{
+    font-family:'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.page{
+    width: 375px;
+    margin: auto;
+    background-color: hsl(210, 46%, 95%);
+}
+
+h1{
+    font-size: 13px;
+    opacity: 70%;
+
+}
+
+span{
+    display: block;
+    font-size: 13px;
+    opacity: 70%;
+}
+
+h1{
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+h2{
+    font-size: 19px;
+}
+
+p{
+    font-size: 15px;
+    opacity: 50%;
+    line-height: 23px;
+}
+
+.one{
+    display: inline-block;
+}
+
+.image{
+    border-radius: 50%;
+    display: inline;
+    width: 10%;
+}
+
+.purple{
+    background-color:  hsl(263, 55%, 52%);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.gray{
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.white-1{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.black{
+    background-color: hsl(219, 29%, 14%);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.white-2{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 700px){
+    .page{
+        display: grid;
+        grid-template-columns: 250px  250px 250px 250px;
+        grid-template-rows: 280px 280px;
+        column-gap: 20px;
+        row-gap: -20px;
+        align-items: center;
+        justify-items: center;
+        width: 1050px;
+    }
+
+    .white-1{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .white-2{
+        grid-column: 4;
+        grid-row: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 490px;
+        margin-top: 20px;
+    }
+
+    .purple{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .black{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        height: 200px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .image{
+        width: 13%;
+        margin-top: 10px;
+    }
+
+    .purple .image, .black .image{
+        width: 5%;
+    }
+    h2{
+        font-size: 18px;
+        margin-top: -10px;
+    }
+}
