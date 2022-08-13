@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://lh6.googleusercontent.com/QfW-fq3kGFwCBtJhILwIaATBSqr0tvkVm7ooeWB9Nv61brHcPUJYmeBMQJ-gZF8MaME=w2400)
 
 ### Links
 
 - Solution URL: [Here you can find the code for the project](https://github.com/MaxiTeddy/Testimonial-Grid-Section)
-- Live Site URL: [Here is what it looks like](https://your-live-site-url.com)
+- Live Site URL: [Here is what it looks like](https://testimonial-grid-snowy.vercel.app/)
 
 ## My process
 
