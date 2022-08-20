@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here you can find the code for the project](https://github.com/MaxiTeddy/Testimonial-Grid-Section)
+- Solution URL: [Here you can find the code for the project](https://www.frontendmentor.io/solutions/responsive-page-depending-on-the-device-size-b3IIQ7WNtd)
 - Live Site URL: [Here is what it looks like](https://testimonial-grid-snowy.vercel.app/)
 
 ## My process
